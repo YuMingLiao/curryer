@@ -10,7 +10,7 @@ import Streamly.Network.Socket as SSock
 import Network.Socket as Socket
 import Network.Socket.ByteString as Socket
 import Streamly.Data.Parser as P
-import Codec.Winery
+import Codec.Winery hiding (deserialiseOnly)
 import Codec.Winery.Internal (varInt, decodeVarInt, getBytes)
 import GHC.Generics
 import GHC.Fingerprint
